@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Typing Speed Test Game</title>
+</head>
+<body>
+    <div class="game">
+        <div class="name">Typing Speed Test Game</div>
+        <div class="container">
+            <div class="message">
+                You Are Playing On
+                <span class="lvl"></span> Level
+                & You Have <span class="seconds"></span> Seconds To Type The Word
+            </div>
+            <div class="start">Start Playing</div>
+            <div class="the-word"></div>
+            <input type="text" class="input" />
+            <div class="upcoming-words">Words Will Show Here</div>
+            <div class="control">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">
+                Score: <span class="got">0</span> From <span class="total"></span>
+                </div>
+            </div>
+            <div class="finish"></div>
+            <div class="select-levels">
+                <select id="levels">
+                    <option value="0">Select Level</option>
+                    <option value="easy">Easy</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="again">Play Again</div>
+            <div class="data-score">
+                <div class="data-box">
+                    <div>Last Score: <span class="last-score">0</span></div>
+                    <div>Date: <span class="last-date">0</span></div>
+                </div>
+                <div class="data-box">
+                    <div>Best Score: <span class="best-score">0</span></div>
+                    <div>Date: <span class="best-date">0</span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
